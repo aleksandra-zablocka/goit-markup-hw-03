@@ -1,0 +1,180 @@
+:root {
+  --text-black: #000000;
+  --text-dark-grey: #212121;
+  --text-grey: #757575;
+  --text-blue: #2196f3;
+  --text-white: #ffffff;
+  --bg-dark-grey: #2f303a;
+  --bg-blue: #2196f3;
+  --bg-grey: #f5f4fa;
+  --bg-white: #ffffff;
+  --border-grey: #eeeeee;
+  --link-transparent-grey: rgba(255, 255, 255, 60%);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-grey);
+}
+
+.list-style-none {
+  list-style: none;
+  justify-content: 
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+
+.logo.black {
+  color: var(--text-black);
+}
+
+.logo.white {
+  color: var(--text-white);
+}
+
+.logo.blue {
+  color: var(--text-blue);
+}
+
+.navigation li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text-dark-grey);
+}
+
+.header-address li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text-grey);
+}
+
+.sec-1-index {
+  background-color: var(--bg-dark-grey);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--text-white);
+}
+
+.title-sec-1-index {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.but-sec-1-index {
+  background-color: var(--bg-blue);
+  color: var(--text-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+}
+
+.header4-sec-2-index {
+  color: var(--text-dark-grey);
+  font-weight: 700;
+}
+
+.header2-sec-3-index {
+  color: var(--text-dark-grey);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.sec-4-index {
+  background-color: var(--bg-grey);
+}
+
+.header2-sec-4-index {
+  color: var(--text-dark-grey);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.header3-sec-4-index {
+  color: var(--text-dark-grey);
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.par-sec-4-index {
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.foot {
+  background-color: var(--bg-dark-grey);
+}
+
+.addr {
+  font-style: normal;
+  color: var(--text-white);
+  text-decoration: none;
+}
+
+.address-mail,
+.address-tel {
+  text-decoration: none;
+  color: var(--link-transparent-grey);
+}
+
+.ul-sec-1-portfolio li button {
+  color: var(--text-dark-grey);
+  background-color: var(--bg-grey);
+  border: none;
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.ul-sec-1-portfolio li button:focus,
+.ul-sec-1-portfolio li button:hover {
+  color: var(--text-white);
+  background-color: var(--bg-blue);
+  border: none;
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+}
+
+.fig-sec2-portfolio {
+  border: 1px solid var(--border-grey);
+}
+
+.header3-sec-2-portfolio {
+  color: var(--text-dark-grey);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.par-sec-2-portfolio {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.navigation li a:focus,
+.navigation li a:hover,
+.header-address li a:focus,
+.header-address li a:hover,
+.address-address:focus,
+.address-address:hover,
+.address-mail:focus,
+.address-mail:hover,
+.address-tel:focus,
+.address-tel:hover {
+  color: var(--text-blue);
+}
