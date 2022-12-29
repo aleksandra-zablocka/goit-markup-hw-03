@@ -17,6 +17,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-grey);
+  width: 1600px;
 }
 
 * {
@@ -28,7 +29,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .list-style-none {
@@ -75,12 +76,16 @@ body {
   line-height: 1.36;
   text-align: center;
   color: var(--text-white);
+  height: 600px;
 }
 
 .title-sec-1-index {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  width: 696px;
+  height: 120px;
+  margin-bottom: 30px;
 }
 
 .but-sec-1-index {
@@ -90,6 +95,8 @@ body {
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
+  padding: 10px 41px 10px 42px;
+  border-radius: 4px;
 }
 
 .header4-sec-2-index {
@@ -199,16 +206,19 @@ body {
   display: flex;
   width: 1158px;
   align-items: center;
-  /* background-color: pink; */
+  margin-top: 24px;
+  margin-left: 215px;
+  margin-right: 227px;
+  padding-bottom: 25px;
 }
 
 .header-parent > .header-item:first-child {
-margin-right: 93px;
+  margin-right: 93px;
 }
 
 .header-parent > .header-item:last-child {
   margin-left: 371px;
-  }
+}
 
 /* .header-parent {
   margin: 0 auto; 
@@ -230,8 +240,6 @@ margin-right: 93px;
   /* border: dotted violet 2px; */
 }
 
-
-
 /* nagivation-links settings  */
 
 .nav-links-parent {
@@ -243,4 +251,13 @@ margin-right: 93px;
 }
 
 .nav-links-item {
+}
+
+.sec-1-parent {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 452px;
 }
