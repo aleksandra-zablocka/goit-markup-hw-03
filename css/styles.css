@@ -19,9 +19,15 @@ body {
   color: var(--text-grey);
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
 .list-style-none {
   list-style: none;
-  justify-content: 
+  justify-content: ;
 }
 
 .logo {
