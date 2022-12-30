@@ -9,6 +9,7 @@
   --bg-grey: #f5f4fa;
   --bg-white: #ffffff;
   --border-grey: #eeeeee;
+  --border-header: #ececec;
   --link-transparent-grey: rgba(255, 255, 255, 60%);
 }
 
@@ -123,7 +124,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  padding-top: 94px;
 }
 
 .header3-sec-4-index {
@@ -226,16 +226,6 @@ body {
   margin-left: 371px;
 }
 
-/* .header-parent {
-  margin: 0 auto; 
-  justify-content: space-between;
-  padding: 0;
-}
-
-.header-parent .header-item {
-  border: 2px solid black;
-} */
-
 /* navigation-menu settings  */
 
 .navigation-parent {
@@ -279,8 +269,6 @@ body {
 
 .sec-2-parent .sec-2-item {
   width: 270px;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .sec-2-parent .sec-2-item:not(:first-child) {
@@ -294,7 +282,6 @@ body {
 
 .sec-3-parent .sec-3-item {
   margin-top: 50px;
-  margin-bottom: 94px;
 }
 
 .sec-3-parent .sec-3-item:not(:first-child) {
@@ -308,7 +295,6 @@ body {
 
 .sec-4-parent .sec-4-item {
   margin-top: 50px;
-  margin-bottom: 94px;
 }
 
 .sec-4-parent .sec-4-item:not(:first-child) {
@@ -349,7 +335,6 @@ body {
 .portfolio-buttons-parent {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -361,11 +346,24 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .portfolio-cards-item figcaption {
   padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* background-color: teal; */
+}
+
+.sec-2 {
+  padding-bottom: 0;
+}
+
+header {
+  border-bottom: var(--border-header) 1px solid;
 }
