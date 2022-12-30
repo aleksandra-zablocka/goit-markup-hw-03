@@ -217,10 +217,6 @@ body {
   padding-bottom: 25px;
 }
 
-.header-parent > .header-item:first-child {
-  margin-right: 93px;
-}
-
 .header-parent > .header-item:last-child {
   margin-left: 371px;
 }
@@ -247,9 +243,6 @@ body {
   justify-content: space-between;
   /* background-color: orange; */
   /* border: dotted violet 2px; */
-}
-
-.nav-links-item {
 }
 
 .sec-1-parent {
