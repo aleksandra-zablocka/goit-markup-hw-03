@@ -361,6 +361,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 .portfolio-cards-item figcaption {
