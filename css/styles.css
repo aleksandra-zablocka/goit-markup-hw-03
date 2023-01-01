@@ -18,7 +18,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-grey);
-  width: 1600px;
 }
 
 * {
@@ -140,7 +139,6 @@ body {
 
 .foot {
   background-color: var(--bg-dark-grey);
-  height: 252px;
 }
 
 .addr {
